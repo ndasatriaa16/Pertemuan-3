@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class javaBarat {
+    public static void main(String[] args) {
+ 
+        Scanner Input = new Scanner(System.in);
+        System.out.println("===BiODATA NILAI MAHASISWA===");
+
+        // Input Nama
+        System.out.print("Nama :");
+        String Nama = Input.nextLine();
+
+        // Input NIM
+        System.out.print("NIM :");
+        int NIM = Input.nextInt();
+
+        // Input Nilai Tugas
+        System.out.print("Nilai TUGAS :");
+        int tgs = Input.nextInt();
+
+        // Input Nilai UTS
+        System.out.print("Nilai UTS :");
+        int uts = Input.nextInt();
+
+        // Input Nilai UAS 
+        System.out.print("Nilai UAS :");
+        int uas = Input.nextInt();
+
+        double akh =(uts*0.3)+(uas*0.3)+(tgs*0.4);
+        System.out.println("Nilai AKHIR :" + akh);
+    }
+}
