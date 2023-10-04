@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+class phytagoras {
+    public static void main(String[] args) {
+
+        Scanner Input = new Scanner(System.in);
+        System.out.println("===RUMUS PHYTAGORAS===");
+
+        // a
+        System.out.print(" a =");
+        float a = Input.nextFloat();
+
+        // b
+         System.out.print(" b =");
+         float b = Input.nextFloat();
+
+        //  c
+        System.out.print(" c =");
+        float c = Input.nextFloat();
+
+        // Rumus 
+         float A = (b*b-c*c);
+         float B = (a*a+c*c);
+         float C = (a*a+b*b);
+         double akarA = Math.sqrt(A);
+         double akarB = Math.sqrt(B);
+         double akarC = Math.sqrt(C);
+         System.out.println("a :"+ akarA);
+         System.out.println("b :"+ akarB);
+         System.out.println("c :"+ akarC);
+
+        
+
+
+
+    }
+}
+ 
